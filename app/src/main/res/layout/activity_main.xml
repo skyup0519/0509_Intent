@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.example.andy.a0509_intent.MainActivity">
+
+
+    <EditText
+        android:id="@+id/tv_editText"
+        android:layout_width="200dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:layout_weight="0.20" />
+
+    <Button
+        android:id="@+id/bt_Go_Receive"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="onClick"
+        android:text="Go_Receive" />
+
+    <Button
+        android:id="@+id/bt_Go_Text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="Go_Text" />
+
+    <Button
+        android:id="@+id/bt_Go_隱式Intent"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="Go(隱式Intent)" />
+
+    <Button
+        android:id="@+id/btn_From_Google"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="From_Google" />
+
+    <Button
+        android:id="@+id/btn_傳送包裹"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="傳送包裹" />
+
+    <Button
+        android:id="@+id/btn_傳送包裹並回傳"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="傳送包裹並回傳" />
+
+    <Button
+        android:id="@+id/btn_聲控的應用"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="聲控的應用" />
+
+</LinearLayout>
